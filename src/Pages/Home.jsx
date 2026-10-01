@@ -137,7 +137,7 @@ function Home() {
               {photos.map((photo) => {
                 return (
                   <SwiperSlide>
-                    <a href="/gallery">
+                    <a href="/#/gallery">
                       <img index={photo.slide} className="w-full h-full object-cover" src={"images/home/memories/" + photo.filename} alt={photo.altText} />
                     </a>
                   </SwiperSlide>
