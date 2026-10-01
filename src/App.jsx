@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Events from "./Pages/Events";
@@ -9,7 +9,7 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <>
-      <Router basename={import.meta.env.BASE_URL}>
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" exact Component={Home} />

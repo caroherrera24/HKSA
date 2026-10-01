@@ -4,7 +4,7 @@ const Navbar = () => (
   <header className="sticky top-0 flex justify-between items-center z-50 shadow-md bg-white">
     <nav className="p-4 z-20 bg-white w-full">
       <div className="flex items-center space-x-5">
-        <a href="/" className="flex items-center">
+        <a href="#/" className="flex items-center">
           <img src={"hksalogo.png"} alt="Logo" className="w-14 h-auto" />
           <h1 className="text-red-700 text-xl font-bold ml-5 font-sans">Hong Kong Student Association</h1>
         </a>
@@ -26,10 +26,10 @@ const Navbar = () => (
       transition-all duration-300 ease-in-out -translate-y-[100%] peer-checked:translate-y-0
       md:opacity-100 md:pointer-events-auto md:z-10 md:mr-4 
     ">
-      <li className="w-full md:w-auto"><a href="" className="text-red-700 font-bold py-2 px-2 rounded-lg block transition duration-200 hover:text-black-400 relative after:content-[''] after:block after:absolute after:left-0 after:md:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0">Home</a></li>
-      <li className="w-full md:w-auto"><a href="about" className="text-red-700 font-bold py-2 px-2 rounded-lg block transition duration-200 hover:text-black-400 relative after:content-[''] after:block after:absolute after:left-0 after:md:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0">About</a></li>
-      <li className="w-full md:w-auto"><a href="events" className="text-red-700 font-bold py-2 px-2 rounded-lg block transition duration-200 hover:text-black-400 relative after:content-[''] after:block after:absolute after:left-0 after:md:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0">Events</a></li>
-      <li className="w-full md:w-auto"><a href="gallery" className="text-red-700 font-bold py-2 px-2 rounded-lg block transition duration-200 hover:text-black-400 relative after:content-[''] after:block after:absolute after:left-0 after:md:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0">Gallery</a></li>
+      <li className="w-full md:w-auto"><a href="#/" className="text-red-700 font-bold py-2 px-2 rounded-lg block transition duration-200 hover:text-black-400 relative after:content-[''] after:block after:absolute after:left-0 after:md:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0">Home</a></li>
+      <li className="w-full md:w-auto"><a href="#/about" className="text-red-700 font-bold py-2 px-2 rounded-lg block transition duration-200 hover:text-black-400 relative after:content-[''] after:block after:absolute after:left-0 after:md:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0">About</a></li>
+      <li className="w-full md:w-auto"><a href="#/events" className="text-red-700 font-bold py-2 px-2 rounded-lg block transition duration-200 hover:text-black-400 relative after:content-[''] after:block after:absolute after:left-0 after:md:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0">Events</a></li>
+      <li className="w-full md:w-auto"><a href="#/gallery" className="text-red-700 font-bold py-2 px-2 rounded-lg block transition duration-200 hover:text-black-400 relative after:content-[''] after:block after:absolute after:left-0 after:md:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0">Gallery</a></li>
     </ul>
   </header>
 );
