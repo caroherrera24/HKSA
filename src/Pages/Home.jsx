@@ -101,7 +101,7 @@ function Home() {
      
 
       {/* Memories */}
-      <div className="w-full h-fit flex items-center justify-center overflow-hidden bg-[url(images/home/memories-background.png)] bg-cover lg:bg-size-[100%_100%] bg-repeat-y md:bg-no-repeat pt-5 pb-16">
+      <div className="w-full h-fit flex items-center justify-center overflow-hidden bg-[url(../images/home/memories-background.png)] bg-cover lg:bg-size-[100%_100%] bg-repeat-y md:bg-no-repeat pt-5 pb-16">
         <div className="w-9/10 h-full my-15 xl:mt-25 flex flex-col lg:flex-row items-center gap-12.5 md:gap-15">
           {/* Title and quote box */}
           <div className="w-full lg:w-1/2 flex flex-col text-center">
