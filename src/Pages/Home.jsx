@@ -109,7 +109,7 @@ function Home() {
             <p className="inline-block text-white text-[20px] md:text-[30px] lg:leading-[36px]">These are some of our favorite moments</p>
             <div className="relative mt-12.5">
               <img className="absolute -top-2 left-0" src="images/home/opening-quote.svg" alt="" />
-              <p className="text-left text-white text-[20px] md:text-[24px] 2xl:text-[30px] traacking-tight leading-8 border-8 [border-image-source:url(images/home/quote-box.svg)] [border-image-slice:10] p-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="text-left text-white text-[20px] md:text-[24px] 2xl:text-[30px] traacking-tight leading-8 border-8 [border-image-source:url('./images/home/quote-box.svg')] [border-image-slice:10] p-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <img className="absolute -bottom-2 right-0" src="images/home/closing-quote.svg" alt="" />
             </div>
             <p className="font-bold text-[#E0AC52] text-[20px] md:text-[30px] 2xl:text-[40px] text-right tracking-[5%]"><span aria-hidden="true">- </span>John Doe</p>
