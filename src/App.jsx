@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Events from "./Pages/Events";
@@ -9,14 +9,14 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Navbar />
         <Routes>
-          <Route path="" exact Component={Home} />
-          <Route path="About" exact Component={About} />
-          <Route path="Events" exact Component={Events} />
-          <Route path="Gallery" exact Component={Gallery} /> 
-          <Route path="Events/:year" Component={Events} />
+          <Route path="/" exact Component={Home} />
+          <Route path="/About" exact Component={About} />
+          <Route path="/Events" exact Component={Events} />
+          <Route path="/Gallery" exact Component={Gallery} /> 
+          <Route path="/Events/:year" Component={Events} />
         </Routes>
       </Router>
     </> 
