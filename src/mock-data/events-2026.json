@@ -8,7 +8,7 @@
       "endTime": "9:00 PM",
       "location": "Stamp Student Center",
       "locationURL": "https://maps.umd.edu/map/index.html?&feature=placesofinterest&name=Stamp%20Student%20Center&basemap=simplified",
-      "graphicDesign": "/lanternfestivalhksa.png",
+      "graphicDesign": "lanternfestivalhksa.png",
       "eventDescription": "Celebrate with us at our annual Lantern Festival featuring traditional food, performances, and more!",
       "postURL": "https://instagram.com/p/example3",
       "galleryURL": "/gallery/lantern-festival"
@@ -20,7 +20,7 @@
       "endTime": "",
       "location": "Mckeldin Library",
       "locationURL": "https://maps.umd.edu/map/index.html?&feature=placesofinterest&name=McKeldin%20Library&basemap=simplified",
-      "graphicDesign": "/lanternfestivalhksa.png",
+      "graphicDesign": "lanternfestivalhksa.png",
       "eventDescription": "Join us for a delicious fundraiser! All proceeds go to our organization.",
       "postURL": "https://instagram.com/p/example2",
       "galleryURL": ""
@@ -32,7 +32,7 @@
       "endTime": "7:00 PM",
       "location": "ESJ 0202",
       "locationURL": "https://maps.umd.edu/map/index.html?&feature=placesofinterest&name=ESJ%200202&basemap=simplified",
-      "graphicDesign": "/lanternfestivalhksa.png",
+      "graphicDesign": "lanternfestivalhksa.png",
       "eventDescription": "Come to our first GBM of the year! Get to know our new members with some fun activities and learn more about our organization!",
       "postURL": "https://instagram.com/p/example1",
       "galleryURL": "/gallery/egg-waffle-gbm"

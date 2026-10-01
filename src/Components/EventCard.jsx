@@ -26,8 +26,8 @@ Example Usage:
     locationURL: "https://www.google.com/maps?q=Adele+H.+Stamp+Student+Union",
     startTime: "6:00 PM",
     endTime: "9:00 PM",
-    graphicDesign: "/images/events/spring-festival.jpg",
-    postURL: "/images/events/spring-festival.jpg",
+    graphicDesign: "images/events/spring-festival.jpg",
+    postURL: "images/events/spring-festival.jpg",
     galleryURL: "https://hksa.org/gallery/spring-festival"
   }} 
   currentDate={new Date()} 

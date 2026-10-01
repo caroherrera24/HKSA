@@ -117,7 +117,7 @@ function About() {
           <div className="bg-[#6a0d14] text-white p-8 w-[260px] shadow-lg clip-card">
             <div className="flex items-center gap-3 mb-4">
               <h2 className='font-bold text-[22px]'>Join Discord</h2>
-              <img src="/public/images/footer/discord-brands-solid-full.svg" alt="Discord" className="w-8 h-8" />
+              <img src="images/footer/discord-brands-solid-full.svg" alt="Discord" className="w-8 h-8" />
             </div>
             <p className='text-[18px] mb-4'>
               The best way to stay updated
@@ -128,7 +128,7 @@ function About() {
           <div className="bg-[#6a0d14] text-white p-8 w-[260px] shadow-lg clip-card">
             <div className="flex items-center gap-3 mb-4">
               <h2 className='font-bold text-[22px]'>Follow Our IG</h2>
-              <img src="/public/images/footer/instagram-brands-solid-full.svg" alt="Instagram" className="w-8 h-8" />
+              <img src="images/footer/instagram-brands-solid-full.svg" alt="Instagram" className="w-8 h-8" />
               
             </div>
             <p className='text-[18px] mb-4'>
