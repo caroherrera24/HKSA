@@ -101,15 +101,41 @@ function Home() {
      
 
       {/* Memories */}
-      <div className="w-full h-fit flex items-center justify-center overflow-hidden bg-[url('./images/home/memories-background.png')] bg-cover lg:bg-size-[100%_100%] bg-repeat-y md:bg-no-repeat pt-5 pb-16">
-        <div className="w-9/10 h-full my-15 xl:mt-25 flex flex-col lg:flex-row items-center gap-12.5 md:gap-15">
+      <style>
+        {`
+          #memories {
+            background-image: url('./images/home/memories-background.png');
+            background-size: cover;
+            background-repeat: repeat-y;
+          }
+
+          @media (min-width: 768px) {
+            #memories {
+              background-repeat: no-repeat;
+            }
+          }
+
+          @media (min-width: 1024px) {
+            #memories {
+              background-size: 100% 100%;
+            }
+          }
+        `}
+      </style>
+      <div id='memories' className="w-full h-fit flex items-center justify-center overflow-hidden">
+        <div className="w-9/10 h-full mt-15 mb-30 xl:mt-30 flex flex-col lg:flex-row items-center gap-12.5 md:gap-15">
           {/* Title and quote box */}
           <div className="w-full lg:w-1/2 flex flex-col text-center">
             <h2 className="font-bold text-[#E0AC52] text-[32px] md:text-[60px] tracking-[5%]">Memories</h2>
             <p className="inline-block text-white text-[20px] md:text-[30px] lg:leading-[36px]">These are some of our favorite moments</p>
             <div className="relative mt-12.5">
               <img className="absolute -top-2 left-0" src="images/home/opening-quote.svg" alt="" />
-              <p className="text-left text-white text-[20px] md:text-[24px] 2xl:text-[30px] traacking-tight leading-8 border-8 [border-image-source:url('./images/home/quote-box.svg')] [border-image-slice:10] p-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p
+                className="text-left text-white text-[20px] md:text-[24px] 2xl:text-[30px] traacking-tight leading-8 border-8 p-6"
+                style={{border: "8px solid transparent", borderImageSource:'url("public/images/home/quote-box.svg")', borderImageSlice: 10}}
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
               <img className="absolute -bottom-2 right-0" src="images/home/closing-quote.svg" alt="" />
             </div>
             <p className="font-bold text-[#E0AC52] text-[20px] md:text-[30px] 2xl:text-[40px] text-right tracking-[5%]"><span aria-hidden="true">- </span>John Doe</p>
