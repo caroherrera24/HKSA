@@ -132,7 +132,7 @@ function Home() {
               <img className="absolute -top-2 left-0" src="images/home/opening-quote.svg" alt="" />
               <p
                 className="text-left text-white text-[20px] md:text-[24px] 2xl:text-[30px] traacking-tight leading-8 border-8 p-6"
-                style={{border: "8px solid transparent", borderImageSource:'url("public/images/home/quote-box.svg")', borderImageSlice: 10}}
+                style={{border: "8px solid transparent", borderImageSource: "url('./images/home/quote-box.svg')", borderImageSlice: 10}}
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
